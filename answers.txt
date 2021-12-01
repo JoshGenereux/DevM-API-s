@@ -1,0 +1,35 @@
+1. https://swapi.dev/api/people/4/?height
+2. https://swapi.dev/api/planets/2/?population
+3. https://swapi.dev/api/starships/10/?manufacturer
+4. https://swapi.dev/api/people/2/?species
+5. "https://swapi.dev/api/films/1/",
+           "https://swapi.dev/api/films/2/",
+           "https://swapi.dev/api/films/3/",
+           "https://swapi.dev/api/films/4/",
+           "https://swapi.dev/api/films/5/",
+           "https://swapi.dev/api/films/6/"
+6. https://swapi.dev/api/?search=millenium
+
+
+1. body
+2. body
+3. https://practiceapi.devmountain.com/api/posts/?id=555
+4. 200, 409
+5. https://practiceapi.devmountain.com/api/posts
+    {
+        "id": 293,
+        "text": "Joshua Genereux",
+        "date": "01 Dec 2021"
+      },
+6. https://practiceapi.devmountain.com/api/posts?id=293
+    {
+            "id": 293,
+            "text": "blue",
+            "date": "01 Dec 2021"
+        },
+7. https://practiceapi.devmountain.com/api/posts/?filter=blue
+8. application/json; charset=utf-8
+9. Request was missing req.query.id or req.body.text
+10. returns an array of all the objects, 200 status is the only thing coded, so that's the only thing it will do.
+
+
